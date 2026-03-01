@@ -191,6 +191,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(220, 23);
             textBox1.TabIndex = 3;
+            textBox1.UseSystemPasswordChar = true;
             // 
             // lblIterations
             // 
@@ -231,8 +232,8 @@
             tlpResults.Location = new Point(0, 0);
             tlpResults.Name = "tlpResults";
             tlpResults.RowCount = 2;
-            tlpResults.RowStyles.Add(new RowStyle(SizeType.Percent, 60F));
-            tlpResults.RowStyles.Add(new RowStyle(SizeType.Percent, 40F));
+            tlpResults.RowStyles.Add(new RowStyle(SizeType.Percent, 30F));
+            tlpResults.RowStyles.Add(new RowStyle(SizeType.Percent, 70F));
             tlpResults.Size = new Size(576, 724);
             tlpResults.TabIndex = 0;
             // 
@@ -259,7 +260,7 @@
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(570, 428);
+            dataGridView1.Size = new Size(570, 211);
             dataGridView1.TabIndex = 0;
             // 
             // formsPlot1
@@ -267,9 +268,9 @@
             formsPlot1.BackColor = Color.White;
             formsPlot1.DisplayScale = 1F;
             formsPlot1.Dock = DockStyle.Fill;
-            formsPlot1.Location = new Point(3, 437);
+            formsPlot1.Location = new Point(3, 220);
             formsPlot1.Name = "formsPlot1";
-            formsPlot1.Size = new Size(570, 284);
+            formsPlot1.Size = new Size(570, 501);
             formsPlot1.TabIndex = 1;
             // 
             // PerfView

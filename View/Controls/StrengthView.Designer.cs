@@ -201,6 +201,7 @@
             progressStrength.Margin = new Padding(0, 8, 0, 6);
             progressStrength.Name = "progressStrength";
             progressStrength.Size = new Size(300, 18);
+            progressStrength.Style = ProgressBarStyle.Continuous;
             progressStrength.TabIndex = 2;
             // 
             // tlpMetrics
