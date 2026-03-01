@@ -136,7 +136,7 @@ docker compose up -d
 
 ### Конфигурация:
 
-- Host: localhost  
+- Host: cryptbank_db
 - Port: 5432  
 - Database: cryptbank  
 - Username: postgres  
