@@ -170,6 +170,7 @@
             lblSubtitle.Size = new Size(245, 15);
             lblSubtitle.TabIndex = 1;
             lblSubtitle.Text = "Measure hashing time for different iterations.";
+            lblSubtitle.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // lblTitle
             // 

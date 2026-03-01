@@ -182,6 +182,7 @@
             // 
             // cmbIterations
             // 
+            cmbIterations.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbIterations.FormattingEnabled = true;
             cmbIterations.Items.AddRange(new object[] { "1000", "10000", "100000", "500000", "1000000" });
             cmbIterations.Location = new Point(113, 81);

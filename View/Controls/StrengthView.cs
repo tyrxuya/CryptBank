@@ -13,6 +13,7 @@ namespace View.Controls
         public StrengthView()
         {
             InitializeComponent();
+            cmbG.SelectedIndex = 3;
         }
     }
 }
