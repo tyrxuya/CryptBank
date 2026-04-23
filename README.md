@@ -128,10 +128,24 @@ t ≈ (0.5 × 2^H) / G
 
 ---
 
-## 🐳 Стартиране на базата данни чрез Docker
+## ▶️ Стартиране на приложението
+
+### 1. Стартиране на базата
 
 ```
-docker compose up -d
+docker-compose up -d
+```
+
+### 2. Build (Release)
+
+```
+dotnet build -c Release
+```
+
+### 3. Стартиране
+
+```
+View/bin/Release/net8.0-windows/View.exe
 ```
 
 ### Конфигурация:
